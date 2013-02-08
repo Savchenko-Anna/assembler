@@ -346,7 +346,7 @@ jz	@f
 push	cx
 mov	cx, numsize
 call	mul_long
-call	mul_long	;we need to multiply it by 10^4h, it doesn't fit 2 bytes :(
+call	mul_long	
 pop	cx
 
 dec	cx
